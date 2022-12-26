@@ -1,0 +1,523 @@
+/* ======================== Header ======================== */
+.shopify-section.shopify-section--header {
+    overflow: visible;  
+}
+.Header {
+    background-color: #F9F6F1;
+}
+.AnnouncementBar__Wrapper {
+    height: 40px;
+}
+.AnnouncementBar__Content a {
+    font-family: Sofia Pro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.Search__Form svg.Icon {
+    fill: none;
+    width: 18px;
+    height: 18px;
+}
+.Header__Icon svg.Icon {
+    fill: none;
+    width: 18px;
+    height: 18px;
+    top: 0;
+}
+.Header__Icon[data-action="open-drawer"] .hidden-phone svg {
+    width: 16px;
+    height: 20px;
+}
+.Header__LogoImage {
+    max-width: 220px;
+}
+.Header:not(.Header--sidebar) .Header__Wrapper {
+    padding: 6px 23px 9px;
+    margin: 0 auto;
+    height: 50px;
+}
+.Header__MainNav {
+    margin-right: 25px;
+}
+.Header__FlexItem--logo {
+    padding: 0 15px;
+}
+.Header__MainNav .HorizontalList--spacingExtraLoose {
+    margin: 0;
+}
+.Header__FlexItem.Header__FlexItem--fill:last-child .HorizontalList__Item {
+    margin-right: 29px;
+}
+.Header__SecondaryNav .HorizontalList--spacingLoose {
+    margin-right: -16px;
+}
+.Header__MainNav .HorizontalList--spacingExtraLoose .HorizontalList__Item {
+    margin: 0 20px 0 0;
+}
+.Header__MainNav .HorizontalList--spacingExtraLoose .HorizontalList__Item:last-child {
+    margin-right: 7px;
+}
+.Header__MainNav .HorizontalList__Item .Heading {
+    letter-spacing: 0.1em;
+    font-family: 'Sofia Pro';
+    line-height: 16.1px;
+    font-weight: 400;
+}
+.Header__MainNav .HorizontalList__Item .Heading:hover {
+    font-weight: 500;
+}
+.Header__MainNav .HorizontalList--spacingExtraLoose .HorizontalList__Item .DropdownMenu {
+    background: #F9F6F1;
+}
+.Header--withIcons .Header__SecondaryNav {
+    margin-right: 0;
+}
+.Header__Icon+.Header__Icon {
+    margin-left: 18px;
+}
+.HorizontalList__Item .u-h8 {
+    font-size: 12px;
+    font-family: 'Sofia Pro';
+    line-height: 16.1px;
+    font-weight: 400;
+    margin-bottom: 3px;
+    padding-right: 12px;
+}
+.Search__Inner {
+    padding: 37px 36px 38px 25px;
+    background-color: #F9F6F1;
+    border-top: 1px solid #DED0B2;
+}
+.Search__Input {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Sofia Pro;
+    text-transform: none;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+.Search__Close svg {
+    width: 15px;
+    height: 15px;
+}
+.DropdownMenu .Link {
+    font-family: 'Sofia Pro';
+}
+.SidebarMenu .Heading {
+    font-family: 'Sofia Pro';
+}
+.SidebarMenu .Text--subdued {
+    font-family: 'Sofia Pro';
+}
+.PageOverlay {
+    top: 40px;
+}
+.PageOverlay.is-visible:not([class*="open"]) {
+    top: 0;
+}
+.Header__Icon .hidden-phone svg.Icon {
+    width: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Search__Inner {
+        padding: 28px 36px 28px 25px;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .AnnouncementBar__Content .AnnouncementBar__Mobile {
+        display: none;
+    }
+    .Header__Icon svg.Icon--nav-light {
+        margin-top: 3px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Header:not(.Header--sidebar) .Header__Wrapper {
+        padding: 13px 15px;
+    }
+    .AnnouncementBar__Content .AnnouncementBar__Desktop {
+        display: none;
+    }
+    .AnnouncementBar__Content .AnnouncementBar__Mobile {
+        white-space: break-spaces;
+        font-size: 10px;
+        letter-spacing: 0.1em;
+    }
+    .AnnouncementBar__Wrapper {
+        padding: 7px 15px;
+    }
+    .AnnouncementBar__Content,
+    .AnnouncementBar__Content a {
+        line-height: 11px;
+    }
+    .Header__Icon svg.Icon {
+        width: 25px;
+        height: 20px;
+    }
+    .Header__Icon .hidden-tablet-and-up svg.Icon,
+    .Header__Icon .hidden-phone svg.Icon {
+        height: 21px;
+    }
+    .Header__Icon span {
+        margin-right: -4px;
+    }
+    .Header__Icon+.Header__Icon {
+        margin-left: 14px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .Search__Inner {
+        padding: 14px 18px;
+    }
+}
+/* ======================== Header ======================== */
+
+
+
+
+/* ======================== Footer ======================== */
+.Footer {
+    background-color: #f9f6f1;
+    border-top: none;
+}
+.Footer__Inner--left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.Footer__Inner--left .Footer__Newsletter.Form {
+    display: flex;
+    border-bottom: 1px solid #454545;
+}
+.Footer__Content+.Footer__Newsletter {
+    margin-top: 19px;
+}
+.Footer__Inner--left .Form__Input {
+    border: none;
+    height: fit-content;
+    font-family: 'Sofia Pro';
+    font-weight: 300;
+    padding: 9px 14px;
+    padding-left: 0;
+}
+.Footer__Inner--left .Form__Input::placeholder {
+    font-family: 'Sofia Pro';
+    font-weight: 300;
+    color: #A1A1A1;
+}
+.Footer__Inner--left .Form__Submit {
+    margin-top: 0;
+    padding: 11px 0;
+    border: none;
+    color: #454545;
+}
+.Footer__Inner--left .Form__Submit:before {
+    background-color: transparent;
+}
+.Footer__Inner--left .Form__Submit svg {
+    width: 25px;
+    height: 11px;
+    fill: #454545;
+    stroke-width: 0.2px;
+    transform: scaleX(1);
+    transition: all .3s;
+}
+.Footer__Inner--left .Form__Submit:hover svg {
+    transform: translateX(5px);
+    transition: all .3s;
+}
+.Footer__Inner--right {
+    flex: 1 1 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Footer__Inner--right .Footer__Content {
+    max-width: 440px;
+}
+.Footer__Inner--right .Footer__Block {
+    padding-left: 10px;
+}
+.Footer__Block--text {
+    flex-basis: 100%;
+}
+.Footer__Block--links {
+    flex: 1 1 33.3%;
+}
+.Footer__Title {
+    color: #454545;
+    font-family: 'Sofia Pro';
+    font-weight: 500;
+    line-height: 15px;
+    margin-bottom: 10px;
+    letter-spacing: 0.15em;
+}
+.Footer .Link--primary {
+    font-weight: 300;
+    margin-bottom: 6px;
+    letter-spacing: 0;
+}
+.Footer__Inner {
+    margin: 0;
+}
+.Footer__Inner p, .Footer__Inner a {
+    font-family: 'Sofia Pro';
+    /*font-weight: 400;*/
+    font-weight: 300;
+    line-height: 21px;
+}
+.Footer__Content.Rte p:not(:last-child) {
+    margin-bottom: 12px;
+}
+.Footer__Block {
+    padding: 0;
+}
+.Footer__Block:first-child {
+    margin-bottom: 54px;
+}
+.Footer__Block .Linklist__Item {
+    margin-bottom: 7px;
+}
+.Footer__Block.Footer__Block--newsletter p {
+    font-family: 'MagnatTest-PosterLight';
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+.Footer__Social {
+    margin-top: 43px;
+}
+.Footer__Social .Icon {
+    height: 20px;
+    width: 20px;
+}
+.HorizontalList--spacingLoose .HorizontalList__Item {
+    margin-right: 17px;
+    margin-left: 10px;
+}
+.Footer__Aside .Footer__Inner--left {
+    padding-left: 4px;
+    padding-right: 20px;
+    align-items: center;
+}
+.Footer__Aside .Footer__Inner--right {
+    padding-left: 10px;
+    padding-right: 0;
+    justify-content: start;
+    align-items: center;
+}
+.Footer__Aside .Footer__Inner--right .Footer__Block {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.Footer__Copyright {
+    margin-bottom: 0;
+}
+.Footer__LocalizationForm {
+    margin-bottom: 0;
+}
+.Footer__LogoLink {
+    max-width: 182px;
+    margin-right: 20px;
+}
+.Footer__StoreName {
+    font-family: 'Sofia Pro';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+.Footer__PaymentList {
+    border-top: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0; 
+    justify-content: space-between;
+}
+.Footer__PaymentList .HorizontalList__Item {
+    margin: 6px 5px;
+}
+.Footer__PaymentList svg {
+    opacity: 1;
+    width: 47px;
+    height: 29px;
+}
+.Footer__Localization {
+    width: unset;
+}
+.Footer__LocalizationItem .SelectButton {
+    margin-bottom: 0;
+    padding-right: 14px;
+    font-family: 'Sofia Pro';
+    font-size: 12px;
+    line-height: 16.1px;
+}
+.Footer__LocalizationItem .SelectButton svg {
+    width: 8px;
+}
+.Footer__ThemeAuthor {
+    display: none;
+}
+@media only screen and (min-width: 1140px) { 
+    .Footer__Inner+.Footer__Aside {
+        margin-top: 52px;
+    }
+}
+@media only screen and (min-width: 1025px) { 
+    .Footer__Copyright {
+        flex-basis: 25%;
+    }
+    .Footer__Localization {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .Footer__Aside .Footer__Inner--right {
+        justify-content: space-between;
+        padding-left: 0;
+    }
+    .Footer__Inner--left {
+        padding-right: 40px;
+    }
+    .Footer__PaymentList {
+        width: 100%;
+        flex-wrap: nowrap;
+        padding-top: 10px;
+    }
+    #footer-currency-popover {
+        right: 0px !important;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .Footer__PaymentList {
+        max-width: 500px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 935px) {
+    .Footer__Aside .Footer__Inner--right {
+        padding-left: 0;
+        max-width: min-content;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) { 
+    /*.Footer__Aside .Footer__Inner--right {
+        justify-content: flex-start;
+    }*/
+    .Footer__Copyright {
+        flex-basis: 34.3%;
+    }
+    .Footer__Inner--right .Footer__Block {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .Footer__Inner--left {
+        flex: 1 1 50%;
+    } 
+    .Footer__PaymentList .HorizontalList__Item:first-child {
+        margin-left: 0;
+    }
+    .Footer__PaymentList .HorizontalList__Item:last-child {
+        margin-right: 3px;
+    }
+}
+@media only screen and (min-width: 768px) { 
+    .Footer__Block.Footer__Block--newsletter .Footer__Content {
+        min-width: 394px;
+        margin-top: 2px;
+    }
+    .Footer__Copyright {
+        min-width: 150px;
+    }
+}
+@media only screen and (max-width: 768px) { 
+    .Footer .Container {
+        padding: 0 15px;
+    }
+    .Footer__PaymentList {
+        width: 100%;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .Footer__Inner--left,
+    .Footer__Aside .Footer__Inner--left,
+    .Footer__Aside .Footer__Inner--right {
+        padding: 0;
+    }
+    .Footer__PaymentList .HorizontalList__Item {
+        margin: 6px 0;
+    }
+    
+    .Footer__Aside .Footer__Inner--right {
+        margin-top: 5px;
+        flex: unset;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 767.98px) { 
+    .Footer__Content+.Footer__Newsletter {
+        margin-top: 18px;
+    }
+    .Footer__Social {
+        margin-top: 23px;
+    }
+    .Footer__Block:first-child {
+        margin-bottom: 24px;
+    }
+    .Footer__Block {
+        margin-top: 33px;
+    }
+    .Footer__Inner+.Footer__Aside {
+        margin-top: 51px;
+    }
+    .Footer__Title {
+        margin-bottom: 8px;
+    }
+    .Footer__Inner--right .Footer__Content {
+        max-width: unset;
+    }
+    .Footer__Content.Rte p:not(:last-child) {
+        letter-spacing: -0.05px;
+    } 
+}
+@media only screen and (min-width: 641px) {
+    .Footer__Aside {
+        align-items: flex-end;
+    } 
+    .Footer__LogoLink {
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .Footer__PaymentList {
+        column-gap: 12.5px;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 600px) { 
+    .Footer__Inner .Footer__Inner--right {
+        margin-top: 35px;
+        flex-direction: column;
+    }
+    .Footer__Inner--right .Footer__Block {
+        padding-right: 0;
+    }
+    .Footer__PaymentList {
+        margin: 0;
+        padding-top: 14px;
+        justify-content: center;
+    }
+}
+/* ======================== Footer ======================== */
+
