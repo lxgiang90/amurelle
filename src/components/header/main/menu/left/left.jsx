@@ -10,6 +10,7 @@ MenuLeft.defaultProps = {
 }
 
 function MenuLeft(props) {
+    const baseUrl = 'https://www.amurelle.com';
     const menuLeft = [
         {
             href: '/collections/all-items',
@@ -37,7 +38,7 @@ function MenuLeft(props) {
         <ul className="HorizontalList HorizontalList--spacingExtraLoose">
             {menuLeft.map(item => (
                 <li key={item.index} className="HorizontalList__Item">
-                    <a href={item.href}>{item.title}</a>
+                    <a href={baseUrl + item.href} className="Heading u-h6">{item.title}</a>
                 </li>
             ))}   
         </ul>
