@@ -1,8 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Logo from '../logo/logo';
 import MenuLeft from './menu/left/left';
 import MenuRight from './menu/right/right';
+import Currency from '../currency/currency';
 
 Main.propTypes = {
     
@@ -22,7 +22,12 @@ function Main(props) {
                         <Logo />
                     </div>
                     <div className="Header__FlexItem Header__FlexItem--fill">
-                        <MenuRight />
+                        <nav className="Header__MainNav hidden-pocket hidden-lap" aria-label="Main navigation">
+                            <MenuRight />
+                        </nav>
+                        <nav class="Header__SecondaryNav">
+                            <Currency />
+                        </nav>
                     </div>
                 </div>
             </header>

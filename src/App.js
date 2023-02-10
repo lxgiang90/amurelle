@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 // import './App.css';
-import './css/theme.css';
+import './assets/css/theme.css';
+import './assets/css/home.css';
 import Header from './components/header/header';
 import Announcement from './components/announcement/announcement';
 

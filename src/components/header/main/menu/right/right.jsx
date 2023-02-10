@@ -6,6 +6,7 @@ MenuRight.propTypes = {
 };
 
 function MenuRight(props) {
+    const baseUrl = 'https://www.amurelle.com';
     const menuRight = [
         {
             href: '/pages/our-story-our-mission',
@@ -21,7 +22,7 @@ function MenuRight(props) {
         <ul className="HorizontalList HorizontalList--spacingExtraLoose">
             {menuRight.map(item => (
                 <li key={item.index} className="HorizontalList__Item">
-                    <a href={item.href}>{item.title}</a>
+                    <a href={baseUrl + item.href} className="Heading u-h6">{item.title}</a>
                 </li>
             ))}   
         </ul>
