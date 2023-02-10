@@ -12,7 +12,9 @@ function Announcement(props) {
                 <div className="AnnouncementBar">
                     <div className="AnnouncementBar__Wrapper">
                         <p className="AnnouncementBar__Content Heading">
-                            <span>FREE SHIPPING IRE WIDE (OVER €50) | E-GIFT CARDS AVAILABLE HERE.</span>
+                            <a href="https://www.amurelle.com/collections/cotton-bedding-bundles/products/hero-cotton-bedding-bundle-1">
+                                <span>FREE SHIPPING IRE WIDE (OVER €50) | NO TAXES OR DUTIES ON INT ORDERS.</span>
+                            </a>
                         </p>
                     </div>
                 </div>

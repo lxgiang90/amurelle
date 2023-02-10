@@ -14,7 +14,7 @@ function MenuLeft(props) {
     const menuLeft = [
         {
             href: '/collections/all-items',
-            title: 'BEDDING'
+            title: 'BED SHEETS'
         },
         {
             href: '/collections/duvets-pillows',
@@ -27,10 +27,6 @@ function MenuLeft(props) {
         {
             href: '/collections/breeze-linen-robes',
             title: 'LINEN ROBES'
-        },
-        {
-            href: '/collections/gifting"',
-            title: 'GIFTING'
         }
     ];
 
